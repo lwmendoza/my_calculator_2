@@ -20,10 +20,14 @@
                                 var num = document.getElementById("n1");
                                 num.value = Math.pow(num.value, 4);
                         }
+			function sine() {
+				var num = document.getElementById("n1");
+				num.value = Math.sin(num.value);
+			}
 		</script>
 	</head>
 	<body>
-		<h1>Lester Mendoza</h1>
+		<h1>Calculadora de Lester Mendoza</h1>
 		Number:
 		<input type="text" id="n1">
 		<p>
@@ -31,6 +35,7 @@
 			<button onclick="square()"> x^2 </button>
 			<button onclick="cube()"> x^3 </button>
 			<button onclick="power_4()"> x^4 </button>
+			<button onclick="sine()"> sin </button>
 		</p>
 	</body>
 </html>
